@@ -14,8 +14,9 @@
 		<div class="flex flex-col flex-shrink-0 gap-4 items-center lg:items-start">
 			<h1 class="font-head text-5xl font-bold">Create AI with ease</h1>
 			<div class="flex gap-4">
-				<button
+				<a
 					class="rounded-full bg-black hover:bg-neutral-800 transition-colors px-4 py-2 text-white font-semibold flex gap-2 items-center group"
+					href="https://assetstore.unity.com/packages/tools/behavior-ai/schema-200876"
 					>Download for free
 
 					<svg
@@ -28,10 +29,11 @@
 							fill="white"
 						/></svg
 					>
-				</button>
+				</a>
 
-				<button
+				<a
 					class="rounded-full border-black hover:bg-neutral-100 transition-colors border-2 px-4 py-2 text-black font-semibold flex gap-2 items-center group"
+					href="https://github.com/acdamiani/schema"
 					>View source
 
 					<svg
@@ -43,7 +45,7 @@
 							d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
 						/></svg
 					>
-				</button>
+				</a>
 			</div>
 			<span class="text-sm text-neutral-500">Supports Unity 2021.3 and higher</span>
 		</div>
