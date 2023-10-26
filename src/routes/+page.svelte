@@ -1,7 +1,8 @@
-<script>
+<script lang="ts">
 	import Logo from '$lib/svg/Logo.svelte';
 	import CodeSnippet from './components/CodeSnippet.svelte';
 	import NodeSvg from './components/NodeSVG.svelte';
+	import Tree from '$lib/svg/Tree.svelte';
 </script>
 
 <div class="ml-16 pt-4">
@@ -80,7 +81,7 @@
 
 <section class="mt-12 bg-zinc-100 py-8 px-40">
 	<div class="flex items-center">
-		<div class="flex flex-col gap-3 max-w-xs">
+		<div class="flex flex-col gap-3 max-w-sm">
 			<h3 class="font-head text-3xl font-semibold">Quick and easy.</h3>
 			<p class="text-lg">
 				Author nodes just like your components&mdash;a Unity-like API makes learning easy and
@@ -105,4 +106,23 @@
 			</div>
 		</div>
 	</div>
+</section>
+
+<section
+	class="py-12"
+	style="background-size: 16px 16px;
+    background-image: linear-gradient(to right, #383838 1px, transparent 1px),
+    linear-gradient(to bottom, #383838 1px, transparent 1px);
+    background-color: #282828;"
+>
+	<div class="flex flex-col items-center w-full gap-8">
+		<h3 class="font-head text-3xl font-semibold text-white">The Behavior Tree</h3>
+		<Tree />
+	</div>
+</section>
+
+<section class="pt-4 flex justify-center">
+	Made with ❤️ by&nbsp;<a class="text-blue-600" href="https://www.linkedin.com/in/augustdamiani/"
+		>August Damiani</a
+	>
 </section>
