@@ -9,10 +9,10 @@
 	<Logo />
 </div>
 
-<div class="flex justify-center px-40">
-	<div class="max-w-screen-xl flex flex-col-reverse lg:flex-row items-center gap-0 md:gap-6">
+<div class="flex justify-center px-8 md:px-40">
+	<div class="max-w-screen-xl flex flex-col-reverse lg:flex-row items-center gap-2 md:gap-6">
 		<div class="flex flex-col flex-shrink-0 gap-4 items-center lg:items-start">
-			<h1 class="font-head text-5xl font-bold">Create AI with ease</h1>
+			<h1 class="font-head text-3xl md:text-5xl font-bold">Create AI with ease</h1>
 			<div class="flex gap-4">
 				<a
 					class="rounded-full bg-black hover:bg-neutral-800 transition-colors px-4 py-2 text-white font-semibold flex gap-2 items-center group"
@@ -54,8 +54,8 @@
 </div>
 
 <section class="mt-12">
-	<div class="flex justify-center w-full px-40">
-		<div class="max-w-screen-xl grid grid-cols-3 gap-8">
+	<div class="flex justify-center w-full px-8 md:px-40">
+		<div class="max-w-screen-xl grid grid-rows-3 md:grid-rows-none md:grid-cols-3 gap-8">
 			<div class="flex flex-col gap-3">
 				<h3 class="font-head text-3xl font-semibold">Extendable</h3>
 				<p class="text-lg">
@@ -81,8 +81,8 @@
 	</div>
 </section>
 
-<section class="mt-12 bg-zinc-100 py-8 px-40">
-	<div class="flex items-center">
+<section class="mt-12 bg-zinc-100 py-8 px-8 md:px-40">
+	<div class="flex flex-col md:flex-row items-center">
 		<div class="flex flex-col gap-3 max-w-sm">
 			<h3 class="font-head text-3xl font-semibold">Quick and easy.</h3>
 			<p class="text-lg">
@@ -90,7 +90,9 @@
 				creating fast.
 			</p>
 		</div>
-		<div class="relative grid grid-cols-2 gap-y-4 items-center justify-items-center w-full">
+		<div
+			class="relative grid grid-flow-col md:grid-flow-row grid-rows-2 md:grid-rows-none md:grid-cols-2 gap-y-4 items-center justify-items-center w-full"
+		>
 			<h4 class="font-head text-2xl">Here's a node...</h4>
 			<h4 class="font-head text-2xl">...and here's the code</h4>
 			<div class="drop-shadow-lg">
